@@ -18,7 +18,7 @@ const PORT = process.env.PORT;
 const MONGOURL = process.env.MONGOURL;
 
 
-const allowedOrigins = ['http://localhost:8888', 'http://localhost:5173', 'https://bistrobliss-bacckend.onrender.com', 'https://bistro-bliss-frontend-dusky.vercel.app'];
+const allowedOrigins = ['http://localhost:8888', 'http://localhost:4173/', 'http://localhost:5173', 'https://bistrobliss-bacckend.onrender.com', 'https://bistro-bliss-frontend-dusky.vercel.app'];
 
 const corsOptions = {
   origin: (origin, callback) => {
